@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock 'n' Rave Madrid</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="contenedor contenido-header">
+            
+            <a href="#">
+            <img class="logo" src="src/img/Logo.png" alt="logo">
+            </a>
+
+            <nav class="navegacion-principal">
+                <a href="#lineup">Line Up</a>
+                <a href="#galeria">Galería</a>
+                <a href="#tickets">Tickets</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2> Rock 'n' Rave Madrid </h2>
+                <p> Agosto 2023, Madrid, España. </p>
+            </div>
+        </div>
+        <video autoplay muted loop>
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+        </video>
+    </div>
+
+    <section class="contenedor sobre-festival">
+        <div class="imagen">
+           <picture>
+            <source srcset="build/img/imagen_vocalista.avif" type="imagen/avif">
+            <source srcset="build/img/imagen_vocalista.webp" type="imagen/webp">
+           <img loading="lazy" width="200" height="300" src="build/img/imagen_vocalista.jpg" alt="imagen vocalista">
+           </picture>
+        </div>
+        <div class="contenido-festival">
+            <h2>Rock 'n' Rave Madrid</h2>
+            <p class="fecha">Agosto 2023, Madrid, Espña</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt maxime, odit reiciendis quis nesciunt neque harum provident dolor consequuntur vitae! Cumque quaerat modi error dolores facere ipsam incidunt rem atque.lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, aut. Dicta laudantium, sed aspernatur, harum omnis doloribus quod ratione autem magnam, quas </p>
+        </div>
+    </section>
+
+    <section id="lineup" class="lineup">
+        <h3>Line Up</h3>
+
+    <p class="dia">Viernes 15</p>
+
+    <div class="escenarios-contenedor contenedor">
+        <div class="escenario rock bg-amarillo">
+            <p class="nombre-escenario">Escenario Rock Fusion</p>
+            <ul class="calendario">
+                <li>
+                    24:00 | <span>Coldplay<span>
+                </li>
+                <li>
+                    22:00 | <span>Pearl Jam</span>
+                </li>
+                <li>
+                    20:00 | <span>Imagine Dragons</span>
+                </li>
+                <li>
+                    19:00 | <span>Muse</span>
+                </li>
+                <li>
+                    18:00 | <span>Kings of Leon</span>
+                </li>
+                <li>
+                    17:00 | <span>The Killers</span>
+                </li>
+            </ul>
+        </div> <!--.escenario-->
+
+        <div class="escenario edm bg-verde">
+            <p class="nombre-escenario">Escenario ElectroVibe</p>
+            <ul class="calendario">
+                
+                <li>
+                    24:00 | <span>Martin Garrix</span>
+                </li>
+                <li>
+                    22:00 | <span>Calvin Harris</span>
+                </li>
+                <li>
+                    20:00 | <span>ODESZA</span>
+                </li>
+                <li>
+                    19:00 | <span>Porter Robinson</span>
+                </li>
+
+                <li>
+                    18:00 | <span>Flume</span>
+                </li>
+                <li>
+                    17:00 | <span>Kygo</span>
+                </li>
+            </ul>
+        </div> <!--.escenario-->
+
+    </div><!--.escenarios-contenedor -->
+
+
+    <p class="dia">Sabado 16</p>
+
+    <div class="escenarios-contenedor contenedor">
+        <div class="escenario rock bg-verde">
+            <p class="nombre-escenario">Escenario Rock Fusion</p>
+            <ul class="calendario">
+                <li>
+                    24:00 | <span>Red Hot Chili Peppers</span>
+                </li>
+                <li>
+                    22:00 | <span>Justin Bieber</span>
+                </li>
+                <li>
+                    20:00 | <span>The Black Keys</span>
+                </li>
+                <li>
+                    19:00 | <span>Green Day</span>
+                </li>
+                
+                <li>
+                    18:00 | <span>Queens of the Stone Age</span>
+                </li>
+                <li>
+                    17:00 | <span>Arctic Monkeys</span>
+                </li>                
+            </ul>
+        </div> <!--.escenario-->
+
+        <div class="escenario edm bg-amarillo">
+            <p class="nombre-escenario">Escenario ElectroVibe</p>
+            <ul class="calendario">
+                
+            <li>
+                24:00 | <span>David Guetta</span>
+            </li>
+            <li>
+                22:00 | <span>The Chainsmokers</span>
+            </li>
+            <li>
+                20:00 | <span>Daft Punk</span>
+            </li>
+            <li>
+                19:00 | <span>Tiesto</span>
+            </li>
+
+            <li>
+                18:00 | <span>Disclosure</span>
+            </li>
+            <li>
+                17:00 | <span>Above & Beyond</span>
+            </li>
+            </ul>
+        </div> <!--.escenario-->
+
+        </div><!--.escenarios-contenedor -->
+    
+    </section>
+
+    <section id="galeria" class="galeria contenedor">
+
+        <h3>Galería</h3>
+
+        <ul class="galeria-imagenes"></ul>
+    </section>
+
+    <section id="tickets" class="tickets bg-verde">
+
+        <h3>Tickets</h3>
+
+        <div class="contenedor contenedor-tickets">
+            <div class="basico pase">
+                <p class="nombre-pase">Pase 1 Día</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios durante el día</li>
+                        <li>1 bebida gratis</li>
+                        <li>Acceso a las áreas de descanso y zonas de sombra</li>
+                        <li>Participación en actividades y juegos del festival</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>110,00 €</p>
+                </footer>
+            </div>
+
+            <div class="premiun pase">
+                <p class="nombre-pase">Pase 2 Días VIP</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios durante los dos días </li>
+                        <li>Acceso a la barra de bebidas ilimitadas hasta las 20:00 horas ambos días</li>
+                        <li>Dos bebidas gratis después de las 20:00 horas cada día</li>
+                        <li>Acceso al área VIP con comodidades especiales, como asientos preferenciales, baños exclusivos y una vista privilegiada del escenario</li>
+                        <li>Acceso a las áreas de descanso y zonas de sombra</li>
+                        <li>Participación en actividades y juegos del festival</li>
+                        <li>Un vaso personalizado conmemorativo del festival</li>
+                        <li>Una camiseta del evento personalizada</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>€250,00 €</p>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div>
+        <p>Rock 'n' Rave Madrid. Todos los derechos Reservados <a href="https://github.com/vitorceballos">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="30" height="25" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+            </svg>
+            <a href="https://www.linkedin.com/in/vitor-mendes-ceballos-754290a3/">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="30" height="25" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <rect x="4" y="4" width="16" height="16" rx="2" />
+            <line x1="8" y1="11" x2="8" y2="16" />
+            <line x1="8" y1="8" x2="8" y2="8.01" />
+            <line x1="12" y1="16" x2="12" y2="11" />
+             <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+            </svg>
+            </a> </p>
+            </div>
+        </div
+    </footer>
+
+    <script src="build/js/app.js"></script>
+</body>
+</html>
